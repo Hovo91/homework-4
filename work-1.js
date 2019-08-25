@@ -1,3 +1,5 @@
+// Given an array of integers, find the pair of adjacent elements that has the largest product and return that product.
+
 function adjacentProductMax(array, newArray = []) {
   let result = array.slice(0, 2);
   newArray.push(result.reduce((product, item) => product * item));
