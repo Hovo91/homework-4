@@ -1,3 +1,5 @@
+// Output the books sorted by the percent in descending order which readStatus is true.
+
 function sortedBooks(array) {
   let filteredArray = array.filter((item) => item.readStatus === true);
   return filteredArray.sort((a, b) => b.percent - a.percent);
