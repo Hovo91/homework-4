@@ -1,3 +1,5 @@
+// Convert a long phrase to its acronym.
+
 function toAcronym (string) {
   let toUpp = string.toUpperCase();
   let arrayOfString = toUpp.split(' ');
