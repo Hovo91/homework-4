@@ -6,4 +6,4 @@ function countOfMissingNumbers(array) {
   return array[array.length - 1] - array[0] - array.length + 1;
 }
 
-console.log(countOfMissingNumbers([-1, 2, 6]));
+console.log(countOfMissingNumbers([-1, 2, -3, 6]));
