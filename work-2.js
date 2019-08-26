@@ -3,7 +3,7 @@
 
 function countOfMissingNumbers(array) {
   array.sort((a, b) => a - b);
-  return array.pop() - array.length;
+  return array[length - 1] - array[0] - array.length + 1;
 }
 
-console.log(countOfMissingNumbers([5, 8, 9, 14, 15, 1, 0, 6, 3, 2, 4, 7]));
+console.log(countOfMissingNumbers([-1, 2, 6]));
